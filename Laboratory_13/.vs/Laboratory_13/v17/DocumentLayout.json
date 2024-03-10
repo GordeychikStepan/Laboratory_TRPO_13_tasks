@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_13\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58B79EE3-61DD-4C36-9049-96CF6E8C6023}|Carousel\\Carousel.csproj|l:\\\u0442\u0440\u043F\u043E\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B wpf\\laboratory_13\\carousel\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{58B79EE3-61DD-4C36-9049-96CF6E8C6023}|Carousel\\Carousel.csproj|solutionrelative:carousel\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B79EE3-61DD-4C36-9049-96CF6E8C6023}|Carousel\\Carousel.csproj|l:\\\u0442\u0440\u043F\u043E\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B wpf\\laboratory_13\\carousel\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{58B79EE3-61DD-4C36-9049-96CF6E8C6023}|Carousel\\Carousel.csproj|solutionrelative:carousel\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_13\\Carousel\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Carousel\\MainWindow.xaml.cs",
+              "ToolTip": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_13\\Carousel\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Carousel\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T05:47:50.726Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_13\\Carousel\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Carousel\\MainWindow.xaml",
+              "ToolTip": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_13\\Carousel\\MainWindow.xaml",
+              "RelativeToolTip": "Carousel\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-07T05:47:06.164Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

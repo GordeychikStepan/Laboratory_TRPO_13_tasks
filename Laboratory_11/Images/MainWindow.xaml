@@ -1,0 +1,36 @@
+﻿<Window x:Class="Images.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:Images"
+		WindowStartupLocation="CenterScreen"
+		mc:Ignorable="d"
+		Title="Images" Height="800" Width="1200">
+	
+	<Window.Resources>
+		<Style TargetType="local:ElementUserControl">
+			<Style.Triggers>
+				<Trigger Property="IsMouseOver" Value="True">
+					<Trigger.Setters>
+						<Setter Property="Panel.ZIndex" Value="99" />
+					</Trigger.Setters>
+				</Trigger>
+			</Style.Triggers>
+		</Style>
+	</Window.Resources>
+	
+	<ScrollViewer>
+		<WrapPanel>
+			<local:ElementUserControl x:Name="Element1" />
+			<local:ElementUserControl x:Name="Element2" />
+			<local:ElementUserControl x:Name="Element3" />
+			<local:ElementUserControl x:Name="Element4" />
+			<local:ElementUserControl x:Name="Element5" />
+			<local:ElementUserControl x:Name="Element6" />
+			<local:ElementUserControl x:Name="Element7" />
+			<local:ElementUserControl x:Name="Element8" />
+			<local:ElementUserControl x:Name="Element9" />
+		</WrapPanel>
+	</ScrollViewer>
+</Window>

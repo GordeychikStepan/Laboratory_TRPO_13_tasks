@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC46D8C-855C-4985-8712-D9492F92622D}|Pulsar\\Pulsar.csproj|l:\\\u0442\u0440\u043F\u043E\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B wpf\\laboratory_7\\pulsar\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BC46D8C-855C-4985-8712-D9492F92622D}|Pulsar\\Pulsar.csproj|solutionrelative:pulsar\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BC46D8C-855C-4985-8712-D9492F92622D}|Pulsar\\Pulsar.csproj|l:\\\u0442\u0440\u043F\u043E\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B wpf\\laboratory_7\\pulsar\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5BC46D8C-855C-4985-8712-D9492F92622D}|Pulsar\\Pulsar.csproj|solutionrelative:pulsar\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03251B75-8D67-40CC-AF14-B7DF86524D3A}|Fleeing Button\\Fleeing Button.csproj|l:\\\u0442\u0440\u043F\u043E\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B wpf\\laboratory_7\\fleeing button\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03251B75-8D67-40CC-AF14-B7DF86524D3A}|Fleeing Button\\Fleeing Button.csproj|solutionrelative:fleeing button\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03251B75-8D67-40CC-AF14-B7DF86524D3A}|Fleeing Button\\Fleeing Button.csproj|l:\\\u0442\u0440\u043F\u043E\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B wpf\\laboratory_7\\fleeing button\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{03251B75-8D67-40CC-AF14-B7DF86524D3A}|Fleeing Button\\Fleeing Button.csproj|solutionrelative:fleeing button\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_7\\Fleeing Button\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Fleeing Button\\MainWindow.xaml.cs",
+              "ToolTip": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_7\\Fleeing Button\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Fleeing Button\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T04:43:39.865Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_7\\Pulsar\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Pulsar\\MainWindow.xaml.cs",
+              "ToolTip": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_7\\Pulsar\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Pulsar\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T04:55:15.689Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_7\\Fleeing Button\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Fleeing Button\\MainWindow.xaml",
+              "ToolTip": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_7\\Fleeing Button\\MainWindow.xaml",
+              "RelativeToolTip": "Fleeing Button\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-20T04:43:41.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_7\\Pulsar\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Pulsar\\MainWindow.xaml",
+              "ToolTip": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_7\\Pulsar\\MainWindow.xaml",
+              "RelativeToolTip": "Pulsar\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-20T04:55:17.298Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

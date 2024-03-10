@@ -1,0 +1,44 @@
+﻿<Window x:Class="Fleeing_Button.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:Fleeing_Button"
+		WindowStartupLocation="CenterScreen"
+		mc:Ignorable="d"
+		Title="Fleeing Button" Height="450" Width="800">
+	<Grid>
+		<Button x:Name="fleeingButton" Content="Убегающая кнопка" Width="150" Height="50"
+			HorizontalAlignment="Left" VerticalAlignment="Top" MouseEnter="fleeingButton_MouseEnter"
+			Margin="1,1,0,0">
+			<Button.Style>
+				<Style TargetType="Button">
+					<Setter Property="Background" Value="#FF4CAF50"/>
+					<Setter Property="Foreground" Value="White"/>
+					<Setter Property="BorderBrush" Value="Gray"/>
+					<Setter Property="BorderThickness" Value="2"/>
+					<Setter Property="Template">
+						<Setter.Value>
+							<ControlTemplate TargetType="Button">
+								<Border Background="{TemplateBinding Background}"
+									BorderBrush="{TemplateBinding BorderBrush}"
+									BorderThickness="{TemplateBinding BorderThickness}"
+									CornerRadius="10">
+									
+									<ContentPresenter HorizontalAlignment="Center"
+												  VerticalAlignment="Center"/>
+								</Border>
+							</ControlTemplate>
+						</Setter.Value>
+					</Setter>
+					<Style.Triggers>
+						<Trigger Property="IsMouseOver" Value="True">
+							<Setter Property="Background" Value="#FF8BC34A"/>
+							<Setter Property="BorderBrush" Value="Green"/>
+						</Trigger>
+					</Style.Triggers>
+				</Style>
+			</Button.Style>
+		</Button>
+	</Grid>
+</Window>

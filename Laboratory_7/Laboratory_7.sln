@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fleeing Button", "Fleeing Button\Fleeing Button.csproj", "{03251B75-8D67-40CC-AF14-B7DF86524D3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pulsar", "Pulsar\Pulsar.csproj", "{5BC46D8C-855C-4985-8712-D9492F92622D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03251B75-8D67-40CC-AF14-B7DF86524D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03251B75-8D67-40CC-AF14-B7DF86524D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03251B75-8D67-40CC-AF14-B7DF86524D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03251B75-8D67-40CC-AF14-B7DF86524D3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC46D8C-855C-4985-8712-D9492F92622D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC46D8C-855C-4985-8712-D9492F92622D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC46D8C-855C-4985-8712-D9492F92622D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC46D8C-855C-4985-8712-D9492F92622D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26F48CEC-A96A-400C-BBB4-077DA7397007}
+	EndGlobalSection
+EndGlobal

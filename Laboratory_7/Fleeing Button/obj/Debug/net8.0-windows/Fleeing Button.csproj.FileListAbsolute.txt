@@ -1,0 +1,21 @@
+L:\ТРПО\Лабораторные работы WPF\Laboratory_7\Fleeing Button\bin\Debug\net8.0-windows\Fleeing Button.exe
+L:\ТРПО\Лабораторные работы WPF\Laboratory_7\Fleeing Button\bin\Debug\net8.0-windows\Fleeing Button.deps.json
+L:\ТРПО\Лабораторные работы WPF\Laboratory_7\Fleeing Button\bin\Debug\net8.0-windows\Fleeing Button.runtimeconfig.json
+L:\ТРПО\Лабораторные работы WPF\Laboratory_7\Fleeing Button\bin\Debug\net8.0-windows\Fleeing Button.dll
+L:\ТРПО\Лабораторные работы WPF\Laboratory_7\Fleeing Button\bin\Debug\net8.0-windows\Fleeing Button.pdb
+L:\ТРПО\Лабораторные работы WPF\Laboratory_7\Fleeing Button\obj\Debug\net8.0-windows\MainWindow.g.cs
+L:\ТРПО\Лабораторные работы WPF\Laboratory_7\Fleeing Button\obj\Debug\net8.0-windows\App.g.cs
+L:\ТРПО\Лабораторные работы WPF\Laboratory_7\Fleeing Button\obj\Debug\net8.0-windows\Fleeing Button_Content.g.cs
+L:\ТРПО\Лабораторные работы WPF\Laboratory_7\Fleeing Button\obj\Debug\net8.0-windows\Fleeing Button_MarkupCompile.cache
+L:\ТРПО\Лабораторные работы WPF\Laboratory_7\Fleeing Button\obj\Debug\net8.0-windows\Fleeing Button_MarkupCompile.lref
+L:\ТРПО\Лабораторные работы WPF\Laboratory_7\Fleeing Button\obj\Debug\net8.0-windows\MainWindow.baml
+L:\ТРПО\Лабораторные работы WPF\Laboratory_7\Fleeing Button\obj\Debug\net8.0-windows\Fleeing Button.g.resources
+L:\ТРПО\Лабораторные работы WPF\Laboratory_7\Fleeing Button\obj\Debug\net8.0-windows\Fleeing Button.GeneratedMSBuildEditorConfig.editorconfig
+L:\ТРПО\Лабораторные работы WPF\Laboratory_7\Fleeing Button\obj\Debug\net8.0-windows\Fleeing Button.AssemblyInfoInputs.cache
+L:\ТРПО\Лабораторные работы WPF\Laboratory_7\Fleeing Button\obj\Debug\net8.0-windows\Fleeing Button.AssemblyInfo.cs
+L:\ТРПО\Лабораторные работы WPF\Laboratory_7\Fleeing Button\obj\Debug\net8.0-windows\Fleeing Button.csproj.CoreCompileInputs.cache
+L:\ТРПО\Лабораторные работы WPF\Laboratory_7\Fleeing Button\obj\Debug\net8.0-windows\Fleeing Button.dll
+L:\ТРПО\Лабораторные работы WPF\Laboratory_7\Fleeing Button\obj\Debug\net8.0-windows\refint\Fleeing Button.dll
+L:\ТРПО\Лабораторные работы WPF\Laboratory_7\Fleeing Button\obj\Debug\net8.0-windows\Fleeing Button.pdb
+L:\ТРПО\Лабораторные работы WPF\Laboratory_7\Fleeing Button\obj\Debug\net8.0-windows\Fleeing Button.genruntimeconfig.cache
+L:\ТРПО\Лабораторные работы WPF\Laboratory_7\Fleeing Button\obj\Debug\net8.0-windows\ref\Fleeing Button.dll

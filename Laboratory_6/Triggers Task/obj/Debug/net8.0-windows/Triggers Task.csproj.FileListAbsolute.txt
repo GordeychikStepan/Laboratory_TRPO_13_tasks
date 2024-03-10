@@ -1,0 +1,22 @@
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\bin\Debug\net8.0-windows\Triggers Task.exe
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\bin\Debug\net8.0-windows\Triggers Task.deps.json
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\bin\Debug\net8.0-windows\Triggers Task.runtimeconfig.json
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\bin\Debug\net8.0-windows\Triggers Task.dll
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\bin\Debug\net8.0-windows\Triggers Task.pdb
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\obj\Debug\net8.0-windows\MainWindow.g.cs
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\obj\Debug\net8.0-windows\App.g.cs
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\obj\Debug\net8.0-windows\Triggers Task_Content.g.cs
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\obj\Debug\net8.0-windows\Triggers Task_MarkupCompile.cache
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\obj\Debug\net8.0-windows\Triggers Task_MarkupCompile.lref
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\obj\Debug\net8.0-windows\MainWindow.baml
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\obj\Debug\net8.0-windows\Triggers Task.g.resources
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\obj\Debug\net8.0-windows\Triggers Task.GeneratedMSBuildEditorConfig.editorconfig
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\obj\Debug\net8.0-windows\Triggers Task.AssemblyInfoInputs.cache
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\obj\Debug\net8.0-windows\Triggers Task.AssemblyInfo.cs
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\obj\Debug\net8.0-windows\Triggers Task.csproj.CoreCompileInputs.cache
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\obj\Debug\net8.0-windows\Triggers Task.dll
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\obj\Debug\net8.0-windows\refint\Triggers Task.dll
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\obj\Debug\net8.0-windows\Triggers Task.pdb
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\obj\Debug\net8.0-windows\Triggers Task.genruntimeconfig.cache
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\obj\Debug\net8.0-windows\ref\Triggers Task.dll
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers Task\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs

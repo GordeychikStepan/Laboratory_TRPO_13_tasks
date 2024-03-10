@@ -1,0 +1,257 @@
+﻿<Window x:Class="RoadSigns.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:RoadSigns"
+		WindowStartupLocation="CenterScreen"
+		mc:Ignorable="d"
+		Title="RoadSigns" Height="450" Width="800" ResizeMode="CanMinimize">
+	
+	<Canvas>
+		<Viewbox Stretch="Uniform" Name="Layer_1" Width="110"  Canvas.Left="10" Canvas.Top="10">
+			<Viewbox.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform x:Name="scale_1" />
+				</TransformGroup>
+			</Viewbox.RenderTransform>
+			<Viewbox.Triggers>
+				<EventTrigger RoutedEvent="MouseEnter">
+					<BeginStoryboard>
+						<Storyboard>
+							<ColorAnimation Storyboard.TargetName="red_obv1" Storyboard.TargetProperty="Fill.Color" To="BlueViolet" Duration="0:0:1" />
+							<ColorAnimation Storyboard.TargetName="black1_1" Storyboard.TargetProperty="Fill.Color" To="Gray" Duration="0:0:1" />
+							<ColorAnimation Storyboard.TargetName="black1_2" Storyboard.TargetProperty="Fill.Color" To="Gray" Duration="0:0:1" />
+							<ColorAnimation Storyboard.TargetName="black1_3" Storyboard.TargetProperty="Fill.Color" To="Gray" Duration="0:0:1" />
+							<ColorAnimation Storyboard.TargetName="black1_4" Storyboard.TargetProperty="Fill.Color" To="Gray" Duration="0:0:1" />
+							<ColorAnimation Storyboard.TargetName="black1_5" Storyboard.TargetProperty="Fill.Color" To="Gray" Duration="0:0:1" />
+							<ColorAnimation Storyboard.TargetName="black1_6" Storyboard.TargetProperty="Fill.Color" To="Gray" Duration="0:0:1" />
+						</Storyboard>
+					</BeginStoryboard>
+				</EventTrigger>
+				<EventTrigger RoutedEvent="MouseLeave">
+					<BeginStoryboard>
+						<Storyboard>
+							<ColorAnimation Storyboard.TargetName="red_obv1" Storyboard.TargetProperty="Fill.Color" To="Red" Duration="0:0:1" />
+							<ColorAnimation Storyboard.TargetName="black1_1" Storyboard.TargetProperty="Fill.Color" To="Black" Duration="0:0:1" />
+							<ColorAnimation Storyboard.TargetName="black1_2" Storyboard.TargetProperty="Fill.Color" To="Black" Duration="0:0:1" />
+							<ColorAnimation Storyboard.TargetName="black1_3" Storyboard.TargetProperty="Fill.Color" To="Black" Duration="0:0:1" />
+							<ColorAnimation Storyboard.TargetName="black1_4" Storyboard.TargetProperty="Fill.Color" To="Black" Duration="0:0:1" />
+							<ColorAnimation Storyboard.TargetName="black1_5" Storyboard.TargetProperty="Fill.Color" To="Black" Duration="0:0:1" />
+							<ColorAnimation Storyboard.TargetName="black1_6" Storyboard.TargetProperty="Fill.Color" To="Black" Duration="0:0:1" />
+						</Storyboard>
+					</BeginStoryboard>
+				</EventTrigger>
+
+				<EventTrigger RoutedEvent="MouseLeftButtonDown">
+					<BeginStoryboard>
+						<Storyboard>
+							<DoubleAnimation Storyboard.TargetName="Layer_1" Storyboard.TargetProperty="(Canvas.Left)" To="300" Duration="0:0:2" />
+							<DoubleAnimation Storyboard.TargetName="Layer_1" Storyboard.TargetProperty="(Canvas.Top)" To="10" Duration="0:0:2" />
+							<DoubleAnimation Storyboard.TargetName="scale_1" Storyboard.TargetProperty="ScaleX" To="3.5" Duration="0:0:2" />
+							<DoubleAnimation Storyboard.TargetName="scale_1" Storyboard.TargetProperty="ScaleY" To="3.5" Duration="0:0:2" />
+							<DoubleAnimation Storyboard.TargetName="Layer_1" Storyboard.TargetProperty="(Canvas.Left)" BeginTime="0:0:4" Duration="0:0:2" />
+							<DoubleAnimation Storyboard.TargetName="Layer_1" Storyboard.TargetProperty="(Canvas.Top)" BeginTime="0:0:4" Duration="0:0:2" />
+							<DoubleAnimation Storyboard.TargetName="scale_1" Storyboard.TargetProperty="ScaleX" BeginTime="0:0:4" Duration="0:0:2" />
+							<DoubleAnimation Storyboard.TargetName="scale_1" Storyboard.TargetProperty="ScaleY" BeginTime="0:0:4" Duration="0:0:2" />
+						</Storyboard>
+					</BeginStoryboard>
+				</EventTrigger>
+			</Viewbox.Triggers>
+			<Canvas Width="834.116" Height="734.423">
+				<Canvas.Clip>
+					<RectangleGeometry Rect="0,0,834.116,734.423"/>
+				</Canvas.Clip>
+				<Path Fill="#FFFFFFFF" Data="F1 M834.116,734.423z M0,0z M0,689.423C0,714.276,20.147,734.423,45,734.423L789.116,734.423C813.969,734.423 834.116,714.276 834.116,689.423 834.116,681.524 832.037,673.764 828.087,666.923L456.029,22.5C447.991,8.577 433.135,0 417.058,0 400.981,0 386.125,8.577 378.087,22.5L6.029,666.923C2.079,673.764,0,681.524,0,689.423z"/>
+				<Path Fill="#FFFFFFFF" Stroke="#FF000000" StrokeThickness="2" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" StrokeLineJoin="Miter" Data="F1 M834.116,734.423z M0,0z M1,689.423C1,713.724,20.699,733.423,45,733.423L789.116,733.423C813.417,733.423 833.116,713.724 833.116,689.423 833.116,681.699 831.083,674.112 827.221,667.423L455.163,23C447.303,9.386 432.778,1 417.058,1 401.338,1 386.813,9.386 378.953,23L6.89499999999998,667.423C3.03299999999998,674.112,0.999999999999982,681.699,0.999999999999982,689.423z"/>
+				<Path Fill="#FFFF0000" x:Name="red_obv1" Data="F1 M834.116,734.423z M0,0z M10,689.423C10,708.753,25.67,724.423,45,724.423L789.116,724.423C808.446,724.423 824.116,708.753 824.116,689.423 824.116,683.279 822.499,677.244 819.427,671.923L447.369,27.5C441.117,16.671 429.562,10 417.058,10 404.554,10 392.999,16.671 386.747,27.5L14.6890000000001,671.923C11.6170000000001,677.244,10.0000000000001,683.28,10.0000000000001,689.423z M93.634,655.571C93.634,653.816,94.096,652.091,94.974,650.571L408.398,107.705C410.184,104.611 413.485,102.705 417.058,102.705 420.631,102.705 423.931,104.611 425.718,107.705L739.142,650.571C740.02,652.091 740.482,653.816 740.482,655.571 740.482,661.094 736.005,665.571 730.482,665.571L103.634,665.571C98.1110000000001,665.571,93.6340000000001,661.094,93.6340000000001,655.571z"/>
+				<Path Fill="#FF000000" x:Name="black1_1" Data="F1 M834.116,734.423z M0,0z M112.141,650.672L236.84,434.686 721.952,650.672z"/>
+				<Path Fill="#FF000000" x:Name="black1_2" Data="F1 M834.116,734.423z M0,0z M319.884,338.098L320.057,350.447 341.643,348.53 302.332,436.825 322.505,445.806 373.147,332.063 353.595,323.358z"/>
+				<Path Fill="#FF000000" x:Name="black1_3" Data="F1 M834.116,734.423z M0,0z M390.347,453.331L438.063,474.576 425.6,491.711 356.159,460.794 364.588,441.863C379.55,436.377 394.501,430.917 409.44,425.482 430.567,416.729 442.869,408.447 446.347,400.636 448.489,395.826 448.804,391.255 447.292,386.925 445.78,382.595 442.645,379.371 437.886,377.252 431.782,374.535 421.951,376.293 408.391,382.527L403.022,363.681C417.663,356.689 431.553,356.117 444.691,361.966 467.915,372.306 474.876,387.925 465.572,408.822 461.841,417.201 455.001,424.352 445.052,430.272 440.083,433.08 430.862,437.156 417.389,442.499 411.363,444.898 402.349,448.508 390.348,453.329z"/>
+				<Path Fill="#FF000000" x:Name="black1_4" Data="F1 M834.116,734.423z M0,0z M498.785,420.451C498.785,433.126 509.061,443.402 521.736,443.402 534.411,443.402 544.687,433.126 544.687,420.451 544.687,407.776 534.411,397.5 521.736,397.5 509.061,397.5 498.785,407.776 498.785,420.451z M511.408,420.451C511.408,414.747 516.032,410.123 521.736,410.123 527.44,410.123 532.064,414.747 532.064,420.451 532.064,426.155 527.44,430.779 521.736,430.779 516.032,430.779 511.408,426.155 511.408,420.451z"/>
+				<Path Fill="#FF000000" x:Name="black1_5" Data="F1 M834.116,734.423z M0,0z M488.55,519.74L474.047,513.283 566.088,417.972 580.591,424.429z"/>
+				<Path Fill="#FF000000" x:Name="black1_6" Data="F1 M834.116,734.423z M0,0z M509.955,517.251C509.955,529.926 520.231,540.202 532.906,540.202 545.581,540.202 555.857,529.926 555.857,517.251 555.857,504.576 545.581,494.3 532.906,494.3 520.231,494.3 509.955,504.576 509.955,517.251z M522.578,517.251C522.578,511.547 527.202,506.923 532.906,506.923 538.61,506.923 543.234,511.547 543.234,517.251 543.234,522.955 538.61,527.579 532.906,527.579 527.202,527.579 522.578,522.955 522.578,517.251z"/>
+			</Canvas>
+		</Viewbox>
+		
+		<Viewbox Width="110" Canvas.Left="10" Canvas.Top="120" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Stretch="Uniform" Name="Layer_3">
+			<Viewbox.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform x:Name="scale_3" />
+				</TransformGroup>
+			</Viewbox.RenderTransform>
+			<Viewbox.Triggers>
+				<EventTrigger RoutedEvent="MouseEnter">
+					<BeginStoryboard>
+						<Storyboard>
+							<ColorAnimation Storyboard.TargetName="blue1" Storyboard.TargetProperty="Fill.Color" To="Green" Duration="0:0:1" />
+						</Storyboard>
+					</BeginStoryboard>
+				</EventTrigger>
+				<EventTrigger RoutedEvent="MouseLeave">
+					<BeginStoryboard>
+						<Storyboard>
+							<ColorAnimation Storyboard.TargetName="blue1" Storyboard.TargetProperty="Fill.Color" To="#FF0D69E1" Duration="0:0:1" />
+						</Storyboard>
+					</BeginStoryboard>
+				</EventTrigger>
+
+				<EventTrigger RoutedEvent="MouseLeftButtonDown">
+					<BeginStoryboard>
+						<Storyboard>
+							<DoubleAnimation Storyboard.TargetName="Layer_3" Storyboard.TargetProperty="(Canvas.Left)" To="300" Duration="0:0:2" ></DoubleAnimation>
+							<DoubleAnimation Storyboard.TargetName="Layer_3" Storyboard.TargetProperty="(Canvas.Top)" To="10" Duration="0:0:2" ></DoubleAnimation>
+							<DoubleAnimation Storyboard.TargetName="scale_3" Storyboard.TargetProperty="ScaleX" To="3.5" Duration="0:0:2" />
+							<DoubleAnimation Storyboard.TargetName="scale_3" Storyboard.TargetProperty="ScaleY" To="3.5" Duration="0:0:2" />
+							<DoubleAnimation Storyboard.TargetName="Layer_3" Storyboard.TargetProperty="(Canvas.Left)" BeginTime="0:0:4" Duration="0:0:2"></DoubleAnimation>
+							<DoubleAnimation Storyboard.TargetName="Layer_3" Storyboard.TargetProperty="(Canvas.Top)" BeginTime="0:0:4" Duration="0:0:2" ></DoubleAnimation>
+							<DoubleAnimation Storyboard.TargetName="scale_3" Storyboard.TargetProperty="ScaleX" BeginTime="0:0:4" Duration="0:0:2" />
+							<DoubleAnimation Storyboard.TargetName="scale_3" Storyboard.TargetProperty="ScaleY" BeginTime="0:0:4" Duration="0:0:2" />
+						</Storyboard>
+					</BeginStoryboard>
+				</EventTrigger>
+			</Viewbox.Triggers>
+			<Canvas Width="700" Height="700">
+				<Canvas.Clip>
+					<RectangleGeometry Rect="0,0,700,700" />
+				</Canvas.Clip>
+				<Ellipse Canvas.Left="0.0" Canvas.Top="0.0" Width="700.0" Height="700.0" Fill="#ffffffff"/>
+				<Ellipse x:Name="black2_1" Canvas.Left="0.0" Canvas.Top="0.0" Width="700.0" Height="700.0" Stroke="#ff000000" StrokeThickness="2.0" StrokeDashCap="Flat"/>
+				<Path x:Name="blue1" Fill="#FF0D69E1" Data="F1 M700,700z M0,0z M350,20C167.74603,20 20,167.74603 20,350 20,532.25397 167.74603,680 350,680 532.25397,680 680,532.25397 680,350 680,167.74603 532.25397,20 350,20z M355.5,47.40625C364.13409,47.40625 378.53125,52.48457 378.53125,68.65625 378.53125,87.23793 348.44721,102.03125 339,102.03125 325.69431,102.03125 319.59375,86.74391 319.59375,77.28125 319.59375,54.00785 348.18981,47.40625 355.5,47.40625z M361.21875,106.15625C363.93231,106.15618,366.63108,106.84627,369.0625,108.25L419.15625,137.15625C424.01903,139.96384,427,145.16622,427,150.78125L427,205.78125C427,212.29141 421.72891,217.5625 415.21875,217.5625 408.70859,217.5625 403.4375,212.29141 403.4375,205.78125L403.4375,155.3125 379.0625,141.25 379.0625,207.1875C379.0625,209.27168,378.2237,211.24493,376.75,212.71875L312.875,276.65625 295.125,347.6875C293.12515,355.68739 284.99999,360.56254 277,358.5625 269.00002,356.56255 264.12515,348.43748 266.125,340.4375L287.96875,253.125C288.32497,251.69607,289.09691,250.39791,290.15625,249.375L329.1875,210.3125 329.1875,126.75C329.1875,123.94241,330.66232,121.34123,333.09375,119.9375L353.375,108.25C355.80643,106.84627,358.50538,106.15625,361.21875,106.15625z M320.59375,160.75L320.59375,194.09375 293.09375,221.5625C290.96043,223.69561 288.03633,225.03125 284.78125,225.03125 278.27089,225.03125 273,219.76036 273,213.25 273,209.99492 274.30445,207.07082 276.4375,204.9375L320.59375,160.75z M374.53125,226.09375L437.125,334.53125C439.29516,337.12382 440.625,340.44836 440.625,344.09375 440.625,352.34012 433.93385,359.03125 425.6875,359.03125 420.12112,359.03125 415.2553,355.98471 412.6875,351.46875L412.53125,351.5625 352.65625,247.9375 374.53125,226.09375z M290.96875,406C291.33348,405.98154,291.72444,406,292.09375,406L320.5,406C323.76005,406 326.40625,408.61486 326.40625,411.875 326.40625,415.13505 323.76005,417.78125 320.5,417.78125L292.09375,417.78125C286.79607,417.78125 282.46875,422.07739 282.46875,427.375 282.46875,430.83923 284.69333,433.93481 287.96875,435.0625 296.00843,437.83084 301.40625,445.40322 301.40625,453.90625 301.40625,455.66852 301.1453,457.40318 300.6875,459.09375L402.0625,459.09375 405.53125,450.96875 379.5,450.96875C374.60981,450.96875 370.65625,447.01513 370.65625,442.125 370.65625,437.23481 374.60981,433.28125 379.5,433.28125L420.09375,433.28125C424.98394,433.28125 428.96875,437.23481 428.96875,442.125 428.96875,447.01513 424.98394,450.96875 420.09375,450.96875L416.78125,450.96875 411.46875,463.46875 433.65625,495.15625C441.38651,491.4397 450.03658,489.34375 459.1875,489.34375 491.78865,489.34375 518.21875,515.7739 518.21875,548.375 518.21875,580.9762 491.78865,607.40625 459.1875,607.40625 429.33999,607.40625 404.67387,585.2605 400.71875,556.5L366.125,556.5 284.65625,494.1875 279.96875,504.25C292.1394,515.06301 299.8125,530.8142 299.8125,548.375 299.8125,580.9762 273.4136,607.40625 240.8125,607.40625 208.21134,607.40625 181.78125,580.9762 181.78125,548.375 181.78125,515.7739 208.21134,489.34375 240.8125,489.34375 251.5317,489.34375 261.55409,492.22447 270.21875,497.21875L288,459.09375 288.84375,457.34375C289.34463,456.26965 289.59375,455.09145 289.59375,453.90625 289.59375,450.44209 287.40036,447.34657 284.125,446.21875 276.08519,443.45047 270.6875,435.87805 270.6875,427.375 270.6875,415.92638 279.66219,406.57222 290.96875,406z M296.4375,472.375L290.4375,481.84375 367.3125,540.625 396.4375,472.375 296.4375,472.375z M407.3125,480.6875L380.625,543.21875 400.375,543.21875C401.81017,526.65445,410.129,512.05901,422.40625,502.25L407.3125,480.6875z M239.5,498.21875C212.38754,498.90565 190.625,521.0971 190.625,548.375 190.625,576.086 213.10153,598.5625 240.8125,598.5625 268.52347,598.5625 290.96875,576.086 290.96875,548.375 290.96875,534.4026 285.27783,521.785 276.0625,512.6875L264.75,536.90625C262.89407,540.88615,259.86547,544.1795,256.0625,546.375L243.75,553.5C240.92664,555.13 237.28619,554.16715 235.65625,551.34375 234.02606,548.52035 235.02033,544.91135 237.84375,543.28125L250.15625,536.15625C251.86101,535.17195,253.23048,533.69035,254.0625,531.90625L266.46875,505.28125C258.95597,500.79673 250.19769,498.21875 240.8125,498.21875 240.37953,498.21875 239.93035,498.20745 239.5,498.21875z M459.1875,498.21875C451.92591,498.21875,445.04363,499.75587,438.8125,502.53125L467.65625,543.71875C470.2274,547.39055 469.32809,552.46015 465.65625,555.03125 464.2917,555.98665 462.66577,556.5 461,556.5L409.6875,556.5C413.57085,580.3467 434.24325,598.5625 459.1875,598.5625 486.89847,598.5625 509.375,576.086 509.375,548.375 509.375,520.6641 486.89847,498.21875 459.1875,498.21875z M427.5,509.5C417.49532,517.67531,410.67087,529.65815,409.28125,543.21875L451.09375,543.21875 427.5,509.5z"/>
+			</Canvas>
+		</Viewbox>
+		
+		<Viewbox Width="110"  Canvas.Left="10" Canvas.Top="250" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Stretch="Uniform" Name="Layer_5">
+			<Viewbox.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform x:Name="scale_5" />
+				</TransformGroup>
+			</Viewbox.RenderTransform>
+			<Viewbox.Triggers>
+				<EventTrigger RoutedEvent="MouseEnter">
+					<BeginStoryboard>
+						<Storyboard>
+							<ColorAnimation Storyboard.TargetName="blue2" Storyboard.TargetProperty="Fill.Color" To="PaleVioletRed" Duration="0:0:1" />
+							<ColorAnimation Storyboard.TargetName="black3_1" Storyboard.TargetProperty="Fill.Color" To="Gray" Duration="0:0:1" />
+							<ColorAnimation Storyboard.TargetName="black3_2" Storyboard.TargetProperty="Fill.Color" To="Gray" Duration="0:0:1" />
+							<ColorAnimation Storyboard.TargetName="black3_3" Storyboard.TargetProperty="Fill.Color" To="Gray" Duration="0:0:1" />
+						</Storyboard>
+					</BeginStoryboard>
+				</EventTrigger>
+				<EventTrigger RoutedEvent="MouseLeave">
+					<BeginStoryboard>
+						<Storyboard>
+							<ColorAnimation Storyboard.TargetName="blue2" Storyboard.TargetProperty="Fill.Color" To="#FF0D69E1" Duration="0:0:1" />
+							<ColorAnimation Storyboard.TargetName="black3_1" Storyboard.TargetProperty="Fill.Color" To="#FF000000" Duration="0:0:1" />
+							<ColorAnimation Storyboard.TargetName="black3_2" Storyboard.TargetProperty="Fill.Color" To="#FF000000" Duration="0:0:1" />
+							<ColorAnimation Storyboard.TargetName="black3_3" Storyboard.TargetProperty="Fill.Color" To="#FF000000" Duration="0:0:1" />
+						</Storyboard>
+					</BeginStoryboard>
+				</EventTrigger>
+
+				<EventTrigger RoutedEvent="MouseLeftButtonDown">
+					<BeginStoryboard>
+						<Storyboard>
+							<DoubleAnimation Storyboard.TargetName="Layer_5" Storyboard.TargetProperty="(Canvas.Left)" To="300" Duration="0:0:2" />
+							<DoubleAnimation Storyboard.TargetName="Layer_5" Storyboard.TargetProperty="(Canvas.Top)" To="10" Duration="0:0:2" />
+							<DoubleAnimation Storyboard.TargetName="scale_5" Storyboard.TargetProperty="ScaleX" To="3.5" Duration="0:0:2" />
+							<DoubleAnimation Storyboard.TargetName="scale_5" Storyboard.TargetProperty="ScaleY" To="3.5" Duration="0:0:2" />
+							<DoubleAnimation Storyboard.TargetName="Layer_5" Storyboard.TargetProperty="(Canvas.Left)" BeginTime="0:0:4" Duration="0:0:2" />
+							<DoubleAnimation Storyboard.TargetName="Layer_5" Storyboard.TargetProperty="(Canvas.Top)" BeginTime="0:0:4" Duration="0:0:2" />
+							<DoubleAnimation Storyboard.TargetName="scale_5" Storyboard.TargetProperty="ScaleX" BeginTime="0:0:4" Duration="0:0:2" />
+							<DoubleAnimation Storyboard.TargetName="scale_5" Storyboard.TargetProperty="ScaleY" BeginTime="0:0:4" Duration="0:0:2" />
+						</Storyboard>
+					</BeginStoryboard>
+				</EventTrigger>
+			</Viewbox.Triggers>
+			<Canvas Width="700" Height="700">
+				<Canvas.Clip>
+					<RectangleGeometry Rect="0,0,700,700" />
+				</Canvas.Clip>
+				<Path Fill="#FFFFFFFF" Data="F0 M700,700z M0,0z"/>
+				<Path x:Name="blue2" Fill="#FF0D69E1" Data="F0 M700,700z M0,0z M20,45C20,31.192,31.192,20,45,20L655,20C668.807,20,680,31.192,680,45L680,655C680,668.807,668.807,680,655,680L45,680C31.192,680,20,668.807,20,655L20,45z M396.666,420C486.966,420 560,346.966 560,256.666 560,166.366 486.966,93.333 396.666,93.333L210,93.333 210,606.666 280,606.666 280,420z M396.666,163.333C448.466,163.099 490.233,204.866 490.233,256.666 490.233,308.466 448.466,350.233 396.666,350.233L280,350 280,163.333z"/>
+				<Path Fill="#FFFFFFFF" Data="F0 M700,700z M0,0z M363.728,498.006C340.182,498.006 321.072,517.116 321.072,540.662 321.072,564.208 340.182,583.318 363.728,583.318 387.275,583.318 406.385,564.208 406.385,540.662 406.385,517.116 387.275,498.006 363.728,498.006z M400.697,570.578C409.911,584.115 425.381,592.987 443.012,592.987 471.336,592.987 494.2,570.123 494.2,541.8 494.2,513.476 471.336,490.612 443.012,490.612 425.381,490.612 409.797,499.485 400.583,513.134 406.953,520.983 410.707,530.993 410.707,541.8 410.707,552.606 406.953,562.616 400.697,570.465z M494.427,564.436C503.641,589.12 527.301,606.637 555.169,606.637 591.001,606.637 620.007,577.631 620.007,541.8 620.007,505.968 591.001,476.962 555.169,476.962 526.846,476.962 502.731,495.162 493.972,520.415 497.043,527.353 498.75,534.975 498.75,542.937 498.75,550.558 497.157,557.725 494.427,564.322z"/>
+				<Path x:Name="black3_1" Fill="#FF000000" Data="F0 M700,700z M0,0z M347.798,519.96L355.424,519.96 355.424,563.64 347.798,563.64 347.798,528.694 341.241,533.065 339.056,529.779 347.798,519.96z M371.367,554.481C371.776,555.039 372.208,555.503 372.664,555.88 373.12,556.257 373.592,556.556 374.087,556.768 374.582,556.981 375.101,557.091 375.644,557.091 376.17,557.091 376.681,556.981 377.177,556.768 377.672,556.556 378.144,556.257 378.6,555.88 379.056,555.503 379.488,555.039 379.897,554.481 380.306,553.93 380.683,553.301 381.029,552.602 381.383,551.902 381.689,551.147 381.964,550.33 382.24,549.52 382.468,548.655 382.664,547.743 382.861,546.831 383.01,545.88 383.112,544.889 383.222,543.899 383.277,542.869 383.277,541.8 383.277,540.754 383.222,539.732 383.112,538.733 383.01,537.727 382.861,536.776 382.664,535.864 382.468,534.952 382.24,534.087 381.964,533.269 381.689,532.452 381.383,531.705 381.029,531.013 380.683,530.321 380.306,529.7 379.897,529.15 379.488,528.6 379.056,528.128 378.6,527.735 378.144,527.35 377.672,527.051 377.177,526.846 376.681,526.642 376.17,526.54 375.644,526.54 375.101,526.54 374.582,526.642 374.087,526.846 373.592,527.051 373.12,527.35 372.664,527.735 372.208,528.128 371.776,528.6 371.367,529.15 370.958,529.7 370.581,530.321 370.227,531.013 369.881,531.705 369.566,532.452 369.299,533.269 369.024,534.087 368.796,534.952 368.599,535.864 368.403,536.776 368.254,537.727 368.151,538.733 368.041,539.732 367.986,540.754 367.986,541.8 367.986,542.869 368.041,543.899 368.151,544.889 368.254,545.88 368.403,546.831 368.599,547.743 368.796,548.655 369.024,549.52 369.299,550.33 369.566,551.147 369.881,551.902 370.227,552.602 370.581,553.301 370.958,553.93 371.367,554.481L371.367,554.481z M375.644,564.717C374.574,564.717 373.545,564.559 372.546,564.253 371.548,563.938 370.588,563.498 369.677,562.916 368.765,562.327 367.9,561.627 367.082,560.801 366.272,559.976 365.518,559.048 364.826,558.003 364.142,556.965 363.521,555.841 362.963,554.614 362.412,553.388 361.941,552.098 361.555,550.723 361.162,549.355 360.871,547.924 360.667,546.43 360.463,544.936 360.36,543.395 360.36,541.8 360.36,540.227 360.463,538.694 360.667,537.2 360.871,535.707 361.162,534.268 361.555,532.892 361.941,531.516 362.412,530.211 362.963,528.993 363.521,527.766 364.142,526.634 364.826,525.596 365.518,524.559 366.272,523.631 367.082,522.805 367.9,521.98 368.765,521.272 369.677,520.691 370.588,520.109 371.548,519.661 372.546,519.354 373.545,519.04 374.574,518.882 375.644,518.882 376.697,518.882 377.719,519.04 378.718,519.354 379.716,519.661 380.675,520.109 381.587,520.691 382.499,521.272 383.364,521.98 384.174,522.805 384.991,523.631 385.746,524.559 386.438,525.596 387.122,526.634 387.743,527.766 388.301,528.993 388.851,530.211 389.323,531.516 389.708,532.892 390.101,534.268 390.392,535.707 390.597,537.2 390.801,538.694 390.903,540.227 390.903,541.8 390.903,543.395 390.801,544.936 390.597,546.43 390.392,547.924 390.101,549.355 389.708,550.723 389.323,552.098 388.851,553.388 388.301,554.614 387.743,555.841 387.122,556.965 386.438,558.003 385.746,559.048 384.991,559.976 384.174,560.801 383.364,561.627 382.499,562.327 381.587,562.916 380.675,563.498 379.716,563.938 378.718,564.253 377.719,564.559 376.697,564.717 375.644,564.717L375.644,564.717z" />
+				<Path x:Name="black3_2" Fill="#FF000000" Data="F0 M700,700z M0,0z M424.86,514.5L434.393,514.5 434.393,569.1 424.86,569.1 424.86,525.418 416.665,530.881 413.933,526.774 424.86,514.5z M442.597,514.5L473.965,514.5 471.234,522.695 450.783,522.695 450.783,536.345C451.491,535.834 452.208,535.412 452.945,535.068 453.692,534.734 454.439,534.459 455.205,534.252 455.972,534.046 456.738,533.889 457.495,533.79 458.262,533.702 459.048,533.633 459.844,533.613L460.247,533.613C461.023,533.613 461.819,533.672 462.645,533.79 463.598,533.967 464.531,534.213 465.465,534.537 466.408,534.871 467.322,535.294 468.217,535.815 469.111,536.336 469.956,536.935 470.742,537.613 471.538,538.291 472.265,539.068 472.934,539.942 473.602,540.817 474.172,541.77 474.644,542.802 475.115,543.834 475.489,544.954 475.774,546.153 476.049,547.352 476.186,548.629 476.186,549.995 476.186,551.646 476.019,553.199 475.675,554.654 475.341,556.108 474.87,557.474 474.26,558.742 473.651,560.019 472.934,561.189 472.098,562.26 471.253,563.321 470.339,564.294 469.327,565.169 468.325,566.043 467.253,566.81 466.123,567.458 464.993,568.117 463.834,568.667 462.645,569.1 461.455,569.542 460.257,569.866 459.048,570.102 457.829,570.328 456.63,570.446 455.441,570.446 454.645,570.446 453.859,570.407 453.092,570.338 452.326,570.269 451.579,570.171 450.842,570.043 450.095,569.925 449.388,569.778 448.71,569.611 448.031,569.443 447.373,569.257 446.744,569.05 446.115,568.844 445.516,568.618 444.956,568.392 444.405,568.156 443.894,567.93 443.432,567.704 442.97,567.468 442.548,567.242 442.174,567.006 441.801,566.78 441.477,566.554 441.211,566.338L440.74,558.181C441.418,558.476 442.165,558.771 442.97,559.095 443.786,559.41 444.661,559.695 445.594,559.96 446.528,560.235 447.54,560.452 448.631,560.638 449.732,560.825 450.891,560.913 452.129,560.913 452.709,560.913 453.358,560.854 454.056,560.746 454.763,560.638 455.49,560.481 456.247,560.275 456.994,560.068 457.751,559.803 458.517,559.488 459.284,559.174 460.011,558.801 460.718,558.358 461.426,557.926 462.084,557.425 462.703,556.874 463.323,556.314 463.853,555.685 464.305,554.997 464.757,554.31 465.111,553.543 465.376,552.708 465.642,551.863 465.779,550.958 465.779,549.995 465.779,549.219 465.711,548.492 465.563,547.804 465.416,547.126 465.209,546.497 464.944,545.917 464.679,545.337 464.354,544.787 463.991,544.276 463.627,543.765 463.224,543.313 462.772,542.91 462.33,542.507 461.849,542.153 461.338,541.839 460.826,541.524 460.296,541.259 459.736,541.053 459.176,540.846 458.606,540.699 458.006,540.601 457.416,540.502 456.827,540.453 456.247,540.453 455.471,540.453 454.734,540.512 454.036,540.64 453.348,540.758 452.67,540.974 452.002,541.288 451.333,541.613 450.675,542.035 450.036,542.566 449.397,543.097 448.729,543.755 448.051,544.531L442.597,541.8 442.597,514.5z" />
+				<Path x:Name="black3_3" Fill="#FF000000" Data="F0 M700,700z M0,0z M506.7,576.38L506.7,566.01 523.99,548.447C524.513,547.886 525.136,547.239 525.857,546.505 526.579,545.77 527.339,544.949 528.135,544.04 528.932,543.131 529.766,542.16 530.65,541.14 531.521,540.107 532.368,539.036 533.189,537.928 533.998,536.82 534.77,535.7 535.517,534.542 536.251,533.385 536.899,532.24 537.446,531.082 538.007,529.937 538.442,528.804 538.766,527.696 539.09,526.588 539.251,525.53 539.251,524.51 539.251,523.227 538.965,522.045 538.392,520.987 537.82,519.929 537.073,519.02 536.139,518.261 535.193,517.514 534.123,516.929 532.903,516.518 531.696,516.095 530.438,515.896 529.144,515.896 527.463,515.896 525.92,516.132 524.538,516.605 523.156,517.078 521.899,517.713 520.754,518.497 519.621,519.281 518.613,520.178 517.717,521.173 516.82,522.169 516.011,523.19 515.277,524.236L508.406,515.896C511.816,512.448 515.364,509.858 519.049,508.128 522.746,506.386 526.691,505.514 530.899,505.514 532.281,505.514 533.637,505.651 534.957,505.912 536.276,506.174 537.558,506.547 538.791,507.045 540.011,507.531 541.193,508.128 542.313,508.813 543.434,509.51 544.467,510.282 545.425,511.141 546.371,511.999 547.23,512.945 547.977,513.954 548.737,514.974 549.384,516.045 549.944,517.178 550.492,518.323 550.915,519.505 551.189,520.738 551.463,521.958 551.6,523.227 551.6,524.51 551.6,525.555 551.525,526.601 551.375,527.621 551.214,528.655 550.99,529.65 550.678,530.621 550.367,531.592 550.019,532.538 549.62,533.484 549.222,534.418 548.761,535.339 548.264,536.223 547.753,537.119 547.218,537.966 546.67,538.787 546.11,539.596 545.537,540.393 544.915,541.152 544.305,541.924 543.683,542.658 543.073,543.343 542.463,544.04 541.84,544.675 541.231,545.26L522.235,564.305 551.6,564.305 548.139,576.38 506.7,576.38z M578.166,561.878C578.813,562.762 579.498,563.496 580.22,564.094 580.942,564.691 581.689,565.164 582.473,565.5 583.257,565.836 584.079,566.01 584.938,566.01 585.772,566.01 586.581,565.836 587.365,565.5 588.149,565.164 588.896,564.691 589.618,564.094 590.34,563.496 591.024,562.762 591.672,561.878 592.319,561.006 592.917,560.011 593.464,558.903 594.024,557.795 594.51,556.6 594.946,555.305 595.381,554.023 595.742,552.654 596.053,551.21 596.365,549.766 596.601,548.26 596.763,546.691 596.937,545.123 597.024,543.492 597.024,541.8 597.024,540.144 596.937,538.526 596.763,536.945 596.601,535.352 596.365,533.845 596.053,532.401 595.742,530.957 595.381,529.588 594.946,528.294 594.51,526.999 594.024,525.817 593.464,524.721 592.917,523.626 592.319,522.642 591.672,521.771 591.024,520.9 590.34,520.153 589.618,519.53 588.896,518.92 588.149,518.447 587.365,518.124 586.581,517.8 585.772,517.638 584.938,517.638 584.079,517.638 583.257,517.8 582.473,518.124 581.689,518.447 580.942,518.92 580.22,519.53 579.498,520.153 578.813,520.9 578.166,521.771 577.519,522.642 576.921,523.626 576.361,524.721 575.813,525.817 575.315,526.999 574.892,528.294 574.456,529.588 574.095,530.957 573.784,532.401 573.473,533.845 573.237,535.352 573.075,536.945 572.9,538.526 572.813,540.144 572.813,541.8 572.813,543.492 572.9,545.123 573.075,546.691 573.237,548.26 573.473,549.766 573.784,551.21 574.095,552.654 574.456,554.023 574.892,555.305 575.315,556.6 575.813,557.795 576.361,558.903 576.921,560.011 577.519,561.006 578.166,561.878L578.166,561.878z M584.938,578.085C583.245,578.085 581.614,577.836 580.033,577.35 578.452,576.853 576.934,576.155 575.49,575.234 574.046,574.301 572.676,573.193 571.382,571.886 570.1,570.579 568.905,569.11 567.809,567.454 566.726,565.811 565.743,564.031 564.859,562.089 563.988,560.148 563.241,558.106 562.631,555.928 562.009,553.762 561.548,551.496 561.224,549.131 560.901,546.766 560.739,544.326 560.739,541.8 560.739,539.31 560.901,536.883 561.224,534.518 561.548,532.152 562.009,529.875 562.631,527.696 563.241,525.518 563.988,523.451 564.859,521.522 565.743,519.58 566.726,517.788 567.809,516.145 568.905,514.501 570.1,513.033 571.382,511.726 572.676,510.419 574.046,509.298 575.49,508.377 576.934,507.456 578.452,506.746 580.033,506.261 581.614,505.763 583.245,505.514 584.938,505.514 586.606,505.514 588.224,505.763 589.805,506.261 591.385,506.746 592.904,507.456 594.348,508.377 595.792,509.298 597.161,510.419 598.443,511.726 599.738,513.033 600.933,514.501 602.028,516.145 603.111,517.788 604.095,519.58 604.978,521.522 605.85,523.451 606.597,525.518 607.207,527.696 607.829,529.875 608.29,532.152 608.613,534.518 608.937,536.883 609.099,539.31 609.099,541.8 609.099,544.326 608.937,546.766 608.613,549.131 608.29,551.496 607.829,553.762 607.207,555.928 606.597,558.106 605.85,560.148 604.978,562.089 604.095,564.031 603.111,565.811 602.028,567.454 600.933,569.11 599.738,570.579 598.443,571.886 597.161,573.193 595.792,574.301 594.348,575.234 592.904,576.155 591.385,576.853 589.805,577.35 588.224,577.836 586.606,578.085 584.938,578.085L584.938,578.085z" />
+			</Canvas>
+		</Viewbox>
+		
+		<Viewbox Name="Layer_2" Width="110"  Canvas.Left="130" Canvas.Top="10">
+			<Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/RU_road_sign_1.13.svg/818px-RU_road_sign_1.13.svg.png">
+				<Image.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform x:Name="scale_2" ></ScaleTransform>
+					</TransformGroup>
+				</Image.RenderTransform>
+				<Image.Triggers>
+					<EventTrigger RoutedEvent="MouseLeftButtonDown">
+						<BeginStoryboard>
+							<Storyboard>
+								<DoubleAnimation Storyboard.TargetName="Layer_2" Storyboard.TargetProperty="(Canvas.Left)" To="300" Duration="0:0:2" />
+								<DoubleAnimation Storyboard.TargetName="Layer_2" Storyboard.TargetProperty="(Canvas.Top)" To="10" Duration="0:0:2" />
+								<DoubleAnimation Storyboard.TargetName="scale_2" Storyboard.TargetProperty="ScaleX" To="3.5" Duration="0:0:2" />
+								<DoubleAnimation Storyboard.TargetName="scale_2" Storyboard.TargetProperty="ScaleY" To="3.5" Duration="0:0:2" />
+								<DoubleAnimation Storyboard.TargetName="Layer_2" Storyboard.TargetProperty="(Canvas.Left)" BeginTime="0:0:4" Duration="0:0:2" />
+								<DoubleAnimation Storyboard.TargetName="Layer_2" Storyboard.TargetProperty="(Canvas.Top)" BeginTime="0:0:4" Duration="0:0:2" />
+								<DoubleAnimation Storyboard.TargetName="scale_2" Storyboard.TargetProperty="ScaleX" BeginTime="0:0:4" Duration="0:0:2" />
+								<DoubleAnimation Storyboard.TargetName="scale_2" Storyboard.TargetProperty="ScaleY" BeginTime="0:0:4" Duration="0:0:2" />
+							</Storyboard>
+						</BeginStoryboard>
+					</EventTrigger>
+				</Image.Triggers>
+			</Image>
+		</Viewbox>
+		
+		<Viewbox Width="110"  Canvas.Left="130" Canvas.Top="120" x:Name="Layer_4">
+			<Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/RU_road_sign_4.5.2.svg/480px-RU_road_sign_4.5.2.svg.png">
+				<Image.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform x:Name="scale_4" />
+					</TransformGroup>
+				</Image.RenderTransform>
+				<Image.Triggers>
+					<EventTrigger RoutedEvent="MouseLeftButtonDown">
+						<BeginStoryboard>
+							<Storyboard>
+								<DoubleAnimation Storyboard.TargetName="Layer_4" Storyboard.TargetProperty="(Canvas.Left)" To="300" Duration="0:0:2" />
+								<DoubleAnimation Storyboard.TargetName="Layer_4" Storyboard.TargetProperty="(Canvas.Top)" To="10" Duration="0:0:2" />
+								<DoubleAnimation Storyboard.TargetName="scale_4" Storyboard.TargetProperty="ScaleX" To="3.5" Duration="0:0:2" />
+								<DoubleAnimation Storyboard.TargetName="scale_4" Storyboard.TargetProperty="ScaleY" To="3.5" Duration="0:0:2" />
+								<DoubleAnimation Storyboard.TargetName="Layer_4" Storyboard.TargetProperty="(Canvas.Left)" BeginTime="0:0:4" Duration="0:0:2" />
+								<DoubleAnimation Storyboard.TargetName="Layer_4" Storyboard.TargetProperty="(Canvas.Top)" BeginTime="0:0:4" Duration="0:0:2" />
+								<DoubleAnimation Storyboard.TargetName="scale_4" Storyboard.TargetProperty="ScaleX" BeginTime="0:0:4" Duration="0:0:2" />
+								<DoubleAnimation Storyboard.TargetName="scale_4" Storyboard.TargetProperty="ScaleY" BeginTime="0:0:4" Duration="0:0:2" />
+							</Storyboard>
+						</BeginStoryboard>
+					</EventTrigger>
+				</Image.Triggers>
+			</Image>
+		</Viewbox>
+		
+		<Viewbox Width="110"  Canvas.Left="130" Canvas.Top="250" x:Name="Layer_6">
+			<Image Source="https://upload.wikimedia.org/wikipedia/ru/thumb/f/f2/RU_road_sign_6.4_B.svg/480px-RU_road_sign_6.4_B.svg.png">
+				<Image.RenderTransform>
+					<ScaleTransform x:Name="scale_6"></ScaleTransform>
+				</Image.RenderTransform>
+				<Image.Triggers>
+					<EventTrigger RoutedEvent="MouseLeftButtonDown">
+						<BeginStoryboard>
+							<Storyboard>
+								<DoubleAnimation Storyboard.TargetName="Layer_6" Storyboard.TargetProperty="(Canvas.Left)" To="300" Duration="0:0:2" />
+								<DoubleAnimation Storyboard.TargetName="Layer_6" Storyboard.TargetProperty="(Canvas.Top)" To="10" Duration="0:0:2" />
+								<DoubleAnimation Storyboard.TargetName="scale_6" Storyboard.TargetProperty="ScaleX" To="3.5" Duration="0:0:2" />
+								<DoubleAnimation Storyboard.TargetName="scale_6" Storyboard.TargetProperty="ScaleY" To="3.5" Duration="0:0:2" />
+								<DoubleAnimation Storyboard.TargetName="Layer_6" Storyboard.TargetProperty="(Canvas.Left)" BeginTime="0:0:4" Duration="0:0:2" />
+								<DoubleAnimation Storyboard.TargetName="Layer_6" Storyboard.TargetProperty="(Canvas.Top)" BeginTime="0:0:4" Duration="0:0:2" />
+								<DoubleAnimation Storyboard.TargetName="scale_6" Storyboard.TargetProperty="ScaleX" BeginTime="0:0:4" Duration="0:0:2" />
+								<DoubleAnimation Storyboard.TargetName="scale_6" Storyboard.TargetProperty="ScaleY" BeginTime="0:0:4" Duration="0:0:2" />
+							</Storyboard>
+						</BeginStoryboard>
+					</EventTrigger>
+				</Image.Triggers>
+			</Image>
+			
+		</Viewbox>
+	</Canvas>
+</Window>

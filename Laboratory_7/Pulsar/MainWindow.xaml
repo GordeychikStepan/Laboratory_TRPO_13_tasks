@@ -1,0 +1,22 @@
+﻿<Window x:Class="Pulsar.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:Pulsar"
+		WindowStartupLocation="CenterScreen"
+		mc:Ignorable="d"
+		Title="Pulsar" Height="450" Width="450" ResizeMode="NoResize">
+	
+	<Grid>
+		<Ellipse x:Name="circle" Width="200" Height="200">
+			<Ellipse.Fill>
+				<RadialGradientBrush>
+					<GradientStop Color="Red" Offset="0"/>
+					<GradientStop Color="Orange" Offset="0.4"/>
+					<GradientStop Color="Yellow" Offset="1"/>
+				</RadialGradientBrush>
+			</Ellipse.Fill>
+		</Ellipse>
+	</Grid>
+</Window>

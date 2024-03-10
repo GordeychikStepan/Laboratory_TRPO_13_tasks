@@ -1,0 +1,38 @@
+﻿<Window x:Class="PointAnimationBall.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:PointAnimationBall"
+		WindowStartupLocation="CenterScreen"
+		mc:Ignorable="d"
+		Title="BallAnimation" Height="450" Width="450" ResizeMode="NoResize">
+	
+	<Window.Resources>
+		<Storyboard x:Key="LightAnimation" RepeatBehavior="Forever">
+			<PointAnimation Storyboard.TargetName="lightGradient" Storyboard.TargetProperty="GradientOrigin" Duration="0:0:5">
+				<PointAnimation.From>
+					<Point X="0.3" Y="0.3"/>
+				</PointAnimation.From>
+				<PointAnimation.To>
+					<Point X="1" Y="1"/>
+				</PointAnimation.To>
+			</PointAnimation>
+		</Storyboard>
+	</Window.Resources>
+	<Grid>
+		<Ellipse Height="250" Width="250">
+			<Ellipse.Fill>
+				<RadialGradientBrush x:Name="lightGradient" GradientOrigin="0.0,0.3">
+					<GradientStop Color="White" Offset="0"></GradientStop>
+					<GradientStop Color="Goldenrod" Offset="1"></GradientStop>
+				</RadialGradientBrush>
+			</Ellipse.Fill>
+		</Ellipse>
+	</Grid>
+	<Window.Triggers>
+		<EventTrigger RoutedEvent="Loaded">
+			<BeginStoryboard Storyboard="{StaticResource LightAnimation}"/>
+		</EventTrigger>
+	</Window.Triggers>
+</Window>

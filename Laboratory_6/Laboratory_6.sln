@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triggers Example", "Triggers\Triggers Example.csproj", "{31803DE8-5069-4B24-B294-5985DA62E39A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triggers Task", "Triggers Task\Triggers Task.csproj", "{320A03FA-E5A3-4B25-958E-0BA69508D835}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31803DE8-5069-4B24-B294-5985DA62E39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31803DE8-5069-4B24-B294-5985DA62E39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31803DE8-5069-4B24-B294-5985DA62E39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31803DE8-5069-4B24-B294-5985DA62E39A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{320A03FA-E5A3-4B25-958E-0BA69508D835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{320A03FA-E5A3-4B25-958E-0BA69508D835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{320A03FA-E5A3-4B25-958E-0BA69508D835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{320A03FA-E5A3-4B25-958E-0BA69508D835}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {693A941E-83AA-42E3-A429-BF5FFFCCD20B}
+	EndGlobalSection
+EndGlobal

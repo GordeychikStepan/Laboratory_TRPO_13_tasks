@@ -1,0 +1,21 @@
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers\bin\Debug\net8.0-windows\Triggers Example.exe
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers\bin\Debug\net8.0-windows\Triggers Example.deps.json
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers\bin\Debug\net8.0-windows\Triggers Example.runtimeconfig.json
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers\bin\Debug\net8.0-windows\Triggers Example.dll
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers\bin\Debug\net8.0-windows\Triggers Example.pdb
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers\obj\Debug\net8.0-windows\MainWindow.g.cs
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers\obj\Debug\net8.0-windows\App.g.cs
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers\obj\Debug\net8.0-windows\Triggers Example_Content.g.cs
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers\obj\Debug\net8.0-windows\Triggers Example_MarkupCompile.cache
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers\obj\Debug\net8.0-windows\Triggers Example_MarkupCompile.lref
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers\obj\Debug\net8.0-windows\MainWindow.baml
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers\obj\Debug\net8.0-windows\Triggers Example.g.resources
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers\obj\Debug\net8.0-windows\Triggers Example.GeneratedMSBuildEditorConfig.editorconfig
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers\obj\Debug\net8.0-windows\Triggers Example.AssemblyInfoInputs.cache
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers\obj\Debug\net8.0-windows\Triggers Example.AssemblyInfo.cs
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers\obj\Debug\net8.0-windows\Triggers Example.csproj.CoreCompileInputs.cache
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers\obj\Debug\net8.0-windows\Triggers Example.dll
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers\obj\Debug\net8.0-windows\refint\Triggers Example.dll
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers\obj\Debug\net8.0-windows\Triggers Example.pdb
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers\obj\Debug\net8.0-windows\Triggers Example.genruntimeconfig.cache
+L:\ТРПО\Лабораторные работы WPF\Laboratory_6\Triggers\obj\Debug\net8.0-windows\ref\Triggers Example.dll

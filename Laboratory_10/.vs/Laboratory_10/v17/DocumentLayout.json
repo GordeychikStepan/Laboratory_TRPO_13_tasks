@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89AB8236-419C-41EF-B0CE-DD70AE1B7788}|Switches\\Switches.csproj|l:\\\u0442\u0440\u043F\u043E\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B wpf\\laboratory_10\\switches\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89AB8236-419C-41EF-B0CE-DD70AE1B7788}|Switches\\Switches.csproj|solutionrelative:switches\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89AB8236-419C-41EF-B0CE-DD70AE1B7788}|Switches\\Switches.csproj|l:\\\u0442\u0440\u043F\u043E\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B wpf\\laboratory_10\\switches\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89AB8236-419C-41EF-B0CE-DD70AE1B7788}|Switches\\Switches.csproj|solutionrelative:switches\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89AB8236-419C-41EF-B0CE-DD70AE1B7788}|Switches\\Switches.csproj|l:\\\u0442\u0440\u043F\u043E\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B wpf\\laboratory_10\\switches\\elementusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89AB8236-419C-41EF-B0CE-DD70AE1B7788}|Switches\\Switches.csproj|solutionrelative:switches\\elementusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89AB8236-419C-41EF-B0CE-DD70AE1B7788}|Switches\\Switches.csproj|l:\\\u0442\u0440\u043F\u043E\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B wpf\\laboratory_10\\switches\\elementusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89AB8236-419C-41EF-B0CE-DD70AE1B7788}|Switches\\Switches.csproj|solutionrelative:switches\\elementusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC73D3FF-7CBE-4D99-9B1C-F823B7812E93}|Graphs\\Graphs.csproj|l:\\\u0442\u0440\u043F\u043E\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B wpf\\laboratory_10\\graphs\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BC73D3FF-7CBE-4D99-9B1C-F823B7812E93}|Graphs\\Graphs.csproj|solutionrelative:graphs\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC73D3FF-7CBE-4D99-9B1C-F823B7812E93}|Graphs\\Graphs.csproj|l:\\\u0442\u0440\u043F\u043E\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B wpf\\laboratory_10\\graphs\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC73D3FF-7CBE-4D99-9B1C-F823B7812E93}|Graphs\\Graphs.csproj|solutionrelative:graphs\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 291,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_10\\Switches\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Switches\\MainWindow.xaml.cs",
+              "ToolTip": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_10\\Switches\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Switches\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T05:02:56.011Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ElementUserControl.xaml.cs",
+              "DocumentMoniker": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_10\\Switches\\ElementUserControl.xaml.cs",
+              "RelativeDocumentMoniker": "Switches\\ElementUserControl.xaml.cs",
+              "ToolTip": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_10\\Switches\\ElementUserControl.xaml.cs",
+              "RelativeToolTip": "Switches\\ElementUserControl.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T03:45:58.529Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_10\\Graphs\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Graphs\\MainWindow.xaml.cs",
+              "ToolTip": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_10\\Graphs\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Graphs\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T03:59:14.875Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_10\\Switches\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Switches\\MainWindow.xaml",
+              "ToolTip": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_10\\Switches\\MainWindow.xaml",
+              "RelativeToolTip": "Switches\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-22T05:02:59.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ElementUserControl.xaml",
+              "DocumentMoniker": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_10\\Switches\\ElementUserControl.xaml",
+              "RelativeDocumentMoniker": "Switches\\ElementUserControl.xaml",
+              "ToolTip": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_10\\Switches\\ElementUserControl.xaml",
+              "RelativeToolTip": "Switches\\ElementUserControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-05T03:45:36.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_10\\Graphs\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Graphs\\MainWindow.xaml",
+              "ToolTip": "L:\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B WPF\\Laboratory_10\\Graphs\\MainWindow.xaml",
+              "RelativeToolTip": "Graphs\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-05T03:59:15.696Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
